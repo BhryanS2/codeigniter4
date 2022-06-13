@@ -29,7 +29,7 @@ Values
 		'Exemplo de texto completo',
 		''
 	),
-	/ (
+	(
 		"",
 		"Descobrimento da América",
 		"Como se deu o descobrimento da américa?",
