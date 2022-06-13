@@ -1,0 +1,21 @@
+
+Caso isso aconteça qunado for rodar o framework, siga os passos
+
+C:\xampp\htdocs\INFO G\codeigniter4>php spark serve
+
+
+[CodeIgniter\Exceptions\FrameworkException]
+
+The framework needs the following extension(s) installed and loaded: intl.
+
+at SYSTEMPATH\CodeIgniter.php:219
+
+
+PASSO A PASSO
+
+1 - Abra o painel do xampp
+2 - Em apache, clique em config e selecione php.ini
+3 - Procure por ;extension=intl, remova o ;
+4 - Salve as mudanças
+
+Caso não tenha dado certo, copie o arquivo "php.int.txt" que está nesta pasta
